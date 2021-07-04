@@ -1,0 +1,10 @@
+Grupo;Año;Previsiones
+OCDE;2021;5,7 
+Bruselas;2021;5,5 
+JP Morgan;2021;6,6 
+FMI;2021;5,9
+OCDE;2022;4,8 
+Bruselas;2022;4,4
+JP Morgan;2022;7,4 
+FMI;2022;4,7
+ 
