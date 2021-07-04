@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Previsiones' inline='true' name='federated.1exi11x1shvqxy17a0q6317uybma' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Previsiones' name='textscan.06v8x4u0okr3wf1drgvpe0mhmuak'>
+            <connection class='textscan' directory='F:/MASTER BIG DATA/TFM/POWERBI/Datasets/Previsiones crecimiento PIB España' filename='Previsiones.txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.06v8x4u0okr3wf1drgvpe0mhmuak' name='Previsiones.txt' table='[Previsiones#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=';'>
+            <column datatype='string' name='Grupo' ordinal='0' />
+            <column datatype='string' name='Año' ordinal='1' />
+            <column datatype='real' name='Previsiones' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.06v8x4u0okr3wf1drgvpe0mhmuak' name='Previsiones.txt' table='[Previsiones#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=';'>
+            <column datatype='string' name='Grupo' ordinal='0' />
+            <column datatype='string' name='Año' ordinal='1' />
+            <column datatype='real' name='Previsiones' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Previsiones.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grupo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Grupo]</local-name>
+            <parent-name>[Previsiones.txt]</parent-name>
+            <remote-alias>Grupo</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Previsiones.txt_C6078A8904874303BA4DF1788A8B94AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Año</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Año]</local-name>
+            <parent-name>[Previsiones.txt]</parent-name>
+            <remote-alias>Año</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Previsiones.txt_C6078A8904874303BA4DF1788A8B94AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Previsiones</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Previsiones]</local-name>
+            <parent-name>[Previsiones.txt]</parent-name>
+            <remote-alias>Previsiones</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Previsiones.txt_C6078A8904874303BA4DF1788A8B94AD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Previsiones.txt' datatype='table' name='[__tableau_internal_object_id__].[Previsiones.txt_C6078A8904874303BA4DF1788A8B94AD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Previsiones.txt' id='Previsiones.txt_C6078A8904874303BA4DF1788A8B94AD'>
+            <properties context=''>
+              <relation connection='textscan.06v8x4u0okr3wf1drgvpe0mhmuak' name='Previsiones.txt' table='[Previsiones#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator=';'>
+                  <column datatype='string' name='Grupo' ordinal='0' />
+                  <column datatype='string' name='Año' ordinal='1' />
+                  <column datatype='real' name='Previsiones' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Previsiones para el crecimiento del PIB en España'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Previsiones' name='federated.1exi11x1shvqxy17a0q6317uybma' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1exi11x1shvqxy17a0q6317uybma'>
+            <column datatype='string' name='[Año]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Grupo]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Previsiones]' role='measure' type='quantitative' />
+            <column-instance column='[Año]' derivation='None' name='[none:Año:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Grupo]' derivation='None' name='[none:Grupo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Previsiones]' derivation='Sum' name='[sum:Previsiones:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]' value='170' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1exi11x1shvqxy17a0q6317uybma].[sum:Previsiones:qk]</rows>
+        <cols>([federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk] / [federated.1exi11x1shvqxy17a0q6317uybma].[none:Año:nk])</cols>
+      </table>
+      <simple-id uuid='{B41EA0E5-BB27-476B-A1F3-0085B798841D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Previsiones para el crecimiento del PIB en España' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='14250' id='8' name='Previsiones para el crecimiento del PIB en España' pane-specification-id='3' param='[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='10' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='9' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Previsiones para el crecimiento del PIB en España' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='14250' id='8' name='Previsiones para el crecimiento del PIB en España' pane-specification-id='3' param='[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0AB22AEE-EB7F-4DFB-AFC4-A5947684C2C7}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Previsiones para el crecimiento del PIB en España'>
+      <cards>
+        <edge name='left'>
+          <strip size='173'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='3' param='[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1exi11x1shvqxy17a0q6317uybma].[cnt:Año:ok]</field>
+            <field>[federated.1exi11x1shvqxy17a0q6317uybma].[none:Año:nk]</field>
+            <field>[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{2A5190AE-B18D-41F7-9AE0-FBF066C11DEC}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Previsiones para el crecimiento del PIB en España'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1exi11x1shvqxy17a0q6317uybma].[none:Grupo:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{34CBBED5-1751-4C17-AE5E-BA4B001E3014}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      S933/wM/GqnVddMiQgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Previsiones para el crecimiento del PIB en España' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
