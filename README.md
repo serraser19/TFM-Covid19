@@ -10,5 +10,5 @@ This Master’s Thesis has as its main objective to research the impact that the
 ## PowerBI & Tableau
 
 Here we have two initial folders:
-  1) Datasets : Here are all the datasets included on the investigation
-  2) Informes : PowerBI and Tableau reports
+  1) Datasets : Datasets used for the reporting.
+  2) Informes : PowerBI and Tableau reports.
